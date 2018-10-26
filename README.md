@@ -1,0 +1,2 @@
+# statusbarUtils
+Android设置透明状态栏后导致软键盘、虚拟按键的显示问题，在activity的onCreate()的setContentView()之后调用AndroidKeyboardHeight.assistActivity(),，基于AndroidBug5497Workaround作出了一些修改，适配可隐藏的虚拟按键和部分华为手机出现的黑/白条
